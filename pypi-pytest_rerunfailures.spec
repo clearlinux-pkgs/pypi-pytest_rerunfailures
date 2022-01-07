@@ -17,13 +17,13 @@ BuildRequires : buildreq-distutils3
 Provides: pytest-rerunfailures
 Provides: pytest-rerunfailures-python
 Provides: pytest-rerunfailures-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(pytest)
 BuildRequires : pypi(setuptools)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 pytest-rerunfailures
