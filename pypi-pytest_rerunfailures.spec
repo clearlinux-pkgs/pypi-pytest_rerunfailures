@@ -4,7 +4,7 @@
 #
 Name     : pypi-pytest_rerunfailures
 Version  : 10.2
-Release  : 38
+Release  : 39
 URL      : https://files.pythonhosted.org/packages/83/07/4b24f61f9700bd0d11cad641180898d48f602f156254a43376ee759fb904/pytest-rerunfailures-10.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/83/07/4b24f61f9700bd0d11cad641180898d48f602f156254a43376ee759fb904/pytest-rerunfailures-10.2.tar.gz
 Summary  : pytest plugin to re-run tests to eliminate flaky failures
@@ -14,16 +14,13 @@ Requires: pypi-pytest_rerunfailures-license = %{version}-%{release}
 Requires: pypi-pytest_rerunfailures-python = %{version}-%{release}
 Requires: pypi-pytest_rerunfailures-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: pytest-rerunfailures
-Provides: pytest-rerunfailures-python
-Provides: pytest-rerunfailures-python3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
+BuildRequires : pypi(py)
 BuildRequires : pypi(pytest)
 BuildRequires : pypi(setuptools)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 pytest-rerunfailures
@@ -67,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641481838
+export SOURCE_DATE_EPOCH=1649699604
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
