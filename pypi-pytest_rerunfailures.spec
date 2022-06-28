@@ -4,7 +4,7 @@
 #
 Name     : pypi-pytest_rerunfailures
 Version  : 10.2
-Release  : 40
+Release  : 41
 URL      : https://files.pythonhosted.org/packages/83/07/4b24f61f9700bd0d11cad641180898d48f602f156254a43376ee759fb904/pytest-rerunfailures-10.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/83/07/4b24f61f9700bd0d11cad641180898d48f602f156254a43376ee759fb904/pytest-rerunfailures-10.2.tar.gz
 Summary  : pytest plugin to re-run tests to eliminate flaky failures
@@ -67,7 +67,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656381061
+export SOURCE_DATE_EPOCH=1656401164
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
