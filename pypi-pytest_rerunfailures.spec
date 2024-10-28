@@ -7,7 +7,7 @@
 #
 Name     : pypi-pytest_rerunfailures
 Version  : 14.0
-Release  : 58
+Release  : 59
 URL      : https://files.pythonhosted.org/packages/cc/a4/6de45fe850759e94aa9a55cda807c76245af1941047294df26c851dfb4a9/pytest-rerunfailures-14.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/cc/a4/6de45fe850759e94aa9a55cda807c76245af1941047294df26c851dfb4a9/pytest-rerunfailures-14.0.tar.gz
 Summary  : pytest plugin to re-run tests to eliminate flaky failures
